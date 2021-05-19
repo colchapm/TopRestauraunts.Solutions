@@ -40,6 +40,7 @@ namespace TopRestaurants.Controllers
     {
       Restaurant thisRestaurant = _db.Restaurants.FirstOrDefault(restaurant => restaurant.RestaurantId == id);
       return View(thisRestaurant);
+
     }
     public ActionResult Edit(int id)
     {

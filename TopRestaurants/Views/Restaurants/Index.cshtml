@@ -12,8 +12,9 @@ Layout = "_Layout";
 }
 
 <ul>
-@foreach (Restaurant restaurant in Model) {
-<li>@Html.ActionLink($"{restaurant.Name}", "Details", new {id = restaurant.RestaurantId })</li>
+@foreach (Restaurant restaurant in Model) 
+{
+  <li>@Html.ActionLink($"{restaurant.Name}", "Details", new {id = restaurant.RestaurantId }) </li>
 }
 </ul>
 
