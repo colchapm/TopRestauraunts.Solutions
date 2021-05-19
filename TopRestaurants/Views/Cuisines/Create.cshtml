@@ -4,13 +4,15 @@
 
 @model TopRestaurants.Models.Cuisine
 
-<h4>Add a new cuisine</h4>
+<h4>ADD NEW CUISINE</h4>
+<hr />
 @using (Html.BeginForm())
 {
     @Html.LabelFor(model => model.Name)
     @Html.TextBoxFor(model => model.Name)
     <input type="submit" value="Add new cuisine" />
 }
+<br>
 <p>@Html.ActionLink("Show all cuisines", "Index")</p>
 
 <p>@Html.ActionLink("Home", "Index", "Home")</p>
