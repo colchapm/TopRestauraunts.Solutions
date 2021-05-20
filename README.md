@@ -1,3 +1,5 @@
+### _This project is not in a complete or portfolio ready state, and should not be considered representiational of professional work._
+
 # Top Restaurants - Pacific Northwest
 
 ### Epicodus Practice Project - Basic Databases
